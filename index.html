@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href="styles.css">
+    <title>ToDo-List</title>
+</head>
+
+<body>
+    <h1>ToDo-List</h1>
+    <div id = "firstdiv">
+        <input type="text" id="task" placeholder="Write your next task here...">
+        <button type="button" id="addbutton">Add Task</button> 
+        <button type="button" id="clearbutton">Clear All Tasks</button> 
+    </div>
+
+    <script type = "text/javascript" src = "javascript.js"></script>
+<!–– These are buttons for edit and delete, will not show up on page, simply here to have the HTML code -->
+<div id="testButton">
+    <button type="button" id="editButton" class="eleButton" onclick=editElement(this.parentNode.parentNode)>Edit</button>
+    <button type="button" id="deleteButton" class="eleButton" onclick=deleteElement(this.parentElement)>Delete</button>
+</div>
+<box>
+<div id="seconddiv" > 
+    <ul id="TaskList">
+        
+    </ul>
+    
+    <script>
+        window.onload = reloadTasks();
+    </script>
+</div>
+</box id = "firstbox">
+<div>
+    <p type="text" id="frogname">Samson</p>
+    <img id="frog" src="https://www.bobendixen.dk/images/2020/serving_trays/520060_serving_tray_frog-p.png">
+</div>
+
+</body>
+
+</html>

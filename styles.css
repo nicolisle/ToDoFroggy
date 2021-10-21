@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+}
+h1{
+    color: rgb(2, 65, 56);
+    text-align: center;
+}
+li{
+    min-width:240px;
+    width: fit-content;
+    border: 2px solid rgb(75, 179, 75);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    text-shadow: 0.7px 0.7px green;
+    margin: 0 auto;
+}
+li+li {
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#firstbox {
+    border: 2px solid yellow;
+}
+
+body {
+    background-color: rgb(41, 143, 138);
+}
+
+#TaskList{
+    text-align: center;
+    margin-left: 0 auto;
+}
+
+#firstdiv,#seconddiv{
+    margin: 0 auto;
+}
+
+
+#firstdiv{
+    width: 360px;
+    padding: 8px;
+    border: 6px solid rgb(255, 187, 0);
+    border-radius: 100px;
+    
+}
+
+
+.special {
+    color: red;
+    font-weight: bold;
+
+}
+#addbutton {
+    cursor: pointer;
+}
+
+li:hover{
+    cursor: pointer;
+
+}
+
+li:hover #testButton {
+    display: block;
+}
+
+li #testButton {
+    display: none;
+   }
+
+#frog {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frogname {
+    text-align: center;
+    margin-bottom: -40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    width: auto;
+}
+
+#testButton {
+    display: none;
+}
+
+.editable {background-color: white;}
