@@ -107,6 +107,11 @@ li #testButton {
     font-size: large;
     width: auto;
 }
+#supportname{
+    text-align: center;
+    font-size: large;
+    width: auto;
+}
 
 #testButton {
     display: none;
