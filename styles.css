@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+}
+h1{
+    color: rgb(2, 65, 56);
+    text-align: center;
+}
+
+
+li{
+    width: 300px;
+    max-width: 300px;
+    border: 2px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    text-align: center;
+    text-shadow: 0.7px 0.7px green;
+    margin: 0 auto;
+}
+
+
+
+li+li {
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    width: 30%;
+    
+}
+
+body {
+    background-color: rgb(41, 143, 138);
+}
+
+#TaskList{
+    text-align: center;
+    margin-left: 0 auto;
+}
+
+#firstdiv,#seconddiv{
+    margin: 0 auto;
+}
+
+#firstdiv{
+    width: 670px;
+    padding: 8px;
+
+    border: 6px solid rgb(255, 187, 0);
+    border-radius: 100px;
+    padding: 1px;
+    
+}
+
+
+.special {
+    color: red;
+    font-weight: bold;
+
+}
+#addbutton {
+    cursor: pointer;
+}
+
+li:hover{
+    cursor: pointer;
+
+}
+
+li:hover #testButton {
+    display: block;
+}
+
+li #testButton {
+    display: none;
+   }
+
+   #deleteTaskListButton {
+       background-color: green;
+       display: none;
+       font-size: 15px;
+       white-space: pre-wrap;
+       width: 50px;
+       text-decoration: none;
+       height: 22px;
+   }
+
+   header:hover #deleteTaskListButton {
+       display: block;
+   }
+   
+
+#frog {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frogname {
+    text-align: center;
+    margin-bottom: -40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    width: auto;
+}
+
+#testButton {
+    display: none;
+}
+
+.editable {background-color: white;}
+
+#dropdownbutton {
+    background-color: rgb(61, 180, 61);
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10mm;
+    width: 120px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  #dropdownbutton:hover, #dropdownbutton:focus {
+    background-color: green;
+  }
+  
+  .dropdowncontent p {
+    color: black;
+    display: block;
+    
+  }
+
+  .dropdowncontent{
+    display: none;
+    position: absolute;
+    background-color: rgb(13, 117, 18);
+    z-index: 10;
+    min-width: 150px;
+    list-style-type: none;
+  }
+  
+  .dropdowncontent p:hover {background-color: rgb(124, 117, 117)}
+  
+  .show {display:block;}
+
+  .dropdowncontent {
+      font-size: 12px;
+    }
+
+  #taskBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  #TaskListList{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+  }
+
+  #commandline {
+      margin: 0 auto;
+      display: flex;
+      width: 300px;
+  }
+
+  #commandline + #commandbutton {
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  }
+
+  .taskListHeader {
+
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    flex-direction: row;
+    justify-content: center;
+    white-space: nowrap;
+    
+  }
+
+  #TaskListList > * {
+    width: 304px;
+    padding: 2rem;
+}
+
+.movedropdown {
+    display: none;
+    z-index: 10;
+    width: 224px;
+    list-style-type: none;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.movedropdown li {
+    width: 220px;
+    background-color: rgba(16, 236, 27, 0.685);
+}
+
+.movedropdown li span {
+    font-size: 12px;
+}
+
+.showMoveList {
+    display:block;
+}
